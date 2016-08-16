@@ -1,6 +1,7 @@
 ### 
-소개 테마
-@auther ho.s
+Prototype introduce module for presentation Theme
+
+@auther threeword (dev@threeword.com)
 @since 2016.07.07
 @version 0.2
 ###

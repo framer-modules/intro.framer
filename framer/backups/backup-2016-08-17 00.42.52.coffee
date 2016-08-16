@@ -3,12 +3,10 @@
 # http://framerjs.com/docs/#info.info
 
 Framer.Info =
-	title: "Info Test"
-	author: "threeword"
+	title: "Module for preview"
+	author: "Jungho Song"
 	twitter: "@threeword"
-	description: "Just some test"
-# 	image.facebook: 
-# 	image.twitter: 
+	description: "For preview & presentation\n - Fullscreen Supported,\n - Responsive Design,\n - More custom themes (White, Image, Tiny)"
 
 Framer.Extras.ShareInfo.enable()
 

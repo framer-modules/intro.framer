@@ -6,7 +6,7 @@ Framer.Info =
 	title: "Module for preview"
 	author: "Jungho Song"
 	twitter: "@threeword"
-	description: "For preview & presentation\n - Fullscreen Supported,\n - Responsive Design,\n - More custom themes (default - Tiny, White, Image)"
+	description: "For preview & presentation\n - Fullscreen Supported,\n - Responsive Design,\n - More custom themes (White, Image, Tiny)"
 
 Framer.Extras.ShareInfo.enable()
 
