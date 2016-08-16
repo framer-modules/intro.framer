@@ -1,7 +1,12 @@
-Introduction for preview (Only desktop)
+# Introduction for preview (Only desktop)
+A Framer Studio module for adding introduction to your project.
+
+[Demo - Image Theme](http://share.framerjs.com/50wic1gr36fv/)
 
 # Screenshot
 ![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot.jpg)
+
+___
 
 # Features
 - Fullscreen Supported
