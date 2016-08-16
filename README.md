@@ -36,5 +36,7 @@ intro = new Intro
 	theme: Intro.Theme.Image
 ```
 
+___
+
 # License
 Intro.framer is released under the MIT license. See LICENSE for details.
