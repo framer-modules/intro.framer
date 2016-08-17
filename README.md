@@ -3,6 +3,8 @@ A Framer Studio module for adding introduction to your project.
 
 [Demo - Image Theme](http://share.framerjs.com/50wic1gr36fv/)
 
+[Demo - Custom Theme](http://share.framerjs.com/1up08x3hq536/)
+
 # Features
 - Fullscreen Supported
 - Responsive Design
@@ -20,6 +22,17 @@ Copy the "module" and "intro" folder (in "image" folder) and paste it into your 
 * typeName : Type name
 * details : Descriptions of type [Array]
 * theme : Theme
+
+```coffeescript
+{Intro} = require "Intro"
+intro = new Intro
+	title: 'Module for preview'
+	subTitle: 'PRESENTATION'
+	typeNo: ''
+	typeName: 'Theme - Tiny'
+	details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
+	theme: Intro.Theme.Tiny
+```
 
 # Theme 
 - [ ] White
