@@ -3,11 +3,6 @@ A Framer Studio module for adding introduction to your project.
 
 [Demo - Image Theme](http://share.framerjs.com/50wic1gr36fv/)
 
-# Screenshot
-![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot.jpg)
-
-___
-
 # Features
 - Fullscreen Supported
 - Responsive Design
@@ -35,7 +30,30 @@ intro = new Intro
 	details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
 	theme: Intro.Theme.Image
 ```
+![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot-image.jpg)
 
+```coffeescript
+{Intro} = require "Intro"
+intro = new Intro
+	title: 'Module for preview'
+	subTitle: 'PRESENTATION'
+	typeNo: ''
+	typeName: 'Theme - White'
+	details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
+	theme: Intro.Theme.White
+```
+![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot-white.jpg)
+
+```coffeescript
+{Intro} = require "Intro"
+intro = new Intro
+	title: 'Module for preview'
+	subTitle: 'PRESENTATION'
+	typeNo: ''
+	typeName: 'Theme - Tiny'
+	details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
+```
+![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot-tiny.jpg)
 ___
 
 # License
