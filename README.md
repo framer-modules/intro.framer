@@ -13,7 +13,7 @@ A Framer Studio module for adding introduction to your project.
 - [ ] Image
 - [x] **Tiny (Base on White) <- _default_**
 
-> You can add custom themes. [Customize Theme](Customize Theme)
+> You can add custom themes. [Customize Theme]
 
 # Installation
 Copy the "module" and "intro" folder (in "image" folder) and paste it into your prototype folder
@@ -32,7 +32,7 @@ intro = new Intro
 	details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
 	theme: Intro.Theme.Image
 ```
-![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot-image.jpg)
+![ScreenShot](screenshot-image.jpg)
 
 ### White
 ```coffeescript
@@ -45,7 +45,7 @@ intro = new Intro
 	details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
 	theme: Intro.Theme.White
 ```
-![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot-white.jpg)
+![ScreenShot](screenshot-white.jpg)
 
 ### Tiny [Default]
 ```coffeescript
@@ -57,29 +57,29 @@ intro = new Intro
 	typeName: 'Theme - Tiny'
 	details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
 ```
-![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot-tiny.jpg)
+![ScreenShot](screenshot-tiny.jpg)
 
 ## Customize Theme
 #### Properties
-* name - Theme name
-* deviceXPos - X position of device from the center position
-* descriptionXPos - X position of description from the center position
-* descriptionYPos - Y position of description from the center position
-* logoMargin - Framer logo margin
-* title - Title properties (Same as Layer properties.)
-* subtitle - Subtitle properties (Same as Layer properties.)
-* detail - Detail properties (Same as Layer properties.)
-* copyright - Copyright properties (Same as Layer properties.)
-* logo - Framer logo properties (Same as Layer properties.)
-* background - Background properties (Same as Layer properties.)
+* name : Theme name
+* deviceXPos : X position of device from the center position
+* descriptionXPos : X position of description from the center position
+* descriptionYPos : Y position of description from the center position
+* logoMargin : Framer logo margin
+* title : Title properties (Same as Layer properties.)
+* subtitle : Subtitle properties (Same as Layer properties.)
+* detail : Detail properties (Same as Layer properties.)
+* copyright : Copyright properties (Same as Layer properties.)
+* logo : Framer logo properties (Same as Layer properties.)
+* background : Background properties (Same as Layer properties.)
 
-#### Default value 
-* devicesXPos - 500
-* descriptionXPos = -500
-* descriptionYPos = -150
-* logoMargin = 10
+#### Default values
+* devicesXPos : 500
+* descriptionXPos : -500
+* descriptionYPos : -150
+* logoMargin : 10
 
-Expand the "IntroTheme" class, create a custom theme class.
+**Step 1. Expand the "IntroTheme" class, create a custom theme class.**
 ```coffeescript
 {IntroTheme} = require "IntroTheme"
 class CustomThemeIntro extends IntroTheme
@@ -123,6 +123,7 @@ class CustomThemeIntro extends IntroTheme
 exports.CustomThemeIntro = CustomThemeIntro
 ```
 
+**Step 2. Declares a custom theme module and set the theme.**
 ```coffeescript
 {CustomThemeIntro} = require "CustomThemeIntro"
 customTheme = new CustomThemeIntro
@@ -136,7 +137,7 @@ intro = new Intro
 	details: ['Change the font', 'Change the title opacity', 'Change the background image', '(Using Utils.randomImage())']
 	theme: customTheme
 ```
-![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot-custom.jpg)
+![ScreenShot](screenshot-custom.jpg)
 
 ___
 
