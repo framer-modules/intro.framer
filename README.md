@@ -20,6 +20,8 @@ Copy the "module" and "intro" folder (in "image" folder) and paste it into your 
 > More info about modules for Framer Studio: [FramerJS Docs - Modules](http://framerjs.com/docs/#modules.modules)
 
 # Usage
+## Basic
+### Image theme
 ```coffeescript
 {Intro} = require "Intro"
 intro = new Intro
@@ -32,6 +34,7 @@ intro = new Intro
 ```
 ![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot-image.jpg)
 
+### White theme
 ```coffeescript
 {Intro} = require "Intro"
 intro = new Intro
@@ -44,6 +47,7 @@ intro = new Intro
 ```
 ![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot-white.jpg)
 
+### Tiny theme [Default]
 ```coffeescript
 {Intro} = require "Intro"
 intro = new Intro
@@ -54,6 +58,23 @@ intro = new Intro
 	details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
 ```
 ![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot-tiny.jpg)
+
+## Customize
+```coffeescript
+{CustomThemeIntro} = require "CustomThemeIntro"
+customTheme = new CustomThemeIntro
+
+{Intro} = require "Intro"
+intro = new Intro
+	title: 'Module for preview'
+	subTitle: 'PRESENTATION'
+	typeNo: '1'
+	typeName: 'Customize Theme'
+	details: ['Change the font', 'Change the title opacity', 'Change the background image', '(Using Utils.randomImage())']
+	theme: customTheme
+```
+![ScreenShot](https://raw.github.com/framer-modules/intro.framer/master/screenshot-custom.jpg)
+
 ___
 
 # License
