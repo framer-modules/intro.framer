@@ -4,13 +4,12 @@
 
 Framer.Info =
 	title: "Module for preview"
-	author: "threeword"
+	author: "Jungho Song"
 	twitter: "@threeword"
-	description: "For Presentation\n - Fullscreen Supported,\n - Responsive Design,\n - More custom themes (default - Tiny, White, Image)"
-# 	image.facebook: 
-# 	image.twitter: 
+	description: "For preview & presentation\n - Fullscreen Supported,\n - Responsive Design,\n - More custom themes (White, Image, Tiny)"
+	date: "2016-07-07"
 
-Framer.Extras.ShareInfo.enable()
+Framer.Extras.ShareInfo.disable()
 
 # Initialization
 init = -> 
@@ -27,9 +26,9 @@ if Utils.isDesktop()
 		title: 'Module for preview'
 		, subTitle: 'PRESENTATION'
 		, typeNo: ''
-		, typeName: 'Theme - Image'
+		, typeName: 'Theme - Tin'
 		, details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
-		, theme: Intro.Theme.Image
+# 		, theme: Intro.Theme.Tiny
 	# Initialization
 	init()
 else init()
