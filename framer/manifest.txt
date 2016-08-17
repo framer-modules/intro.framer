@@ -29,16 +29,23 @@
 .git/objects/1c/a7e8b48b3519a6cf6024012cb8937c6c2e3aea
 .git/objects/1c/eeb5e4351a9d173658e5dcdd516bcb086584cd
 .git/objects/1d/17a603b5ea5e990883f8cc6e2e815d2bab175b
+.git/objects/1d/a48373f501447186e39b5617fbf0da9fccf877
 .git/objects/1d/b621cb60dc5756e216266aa17a8d0a3dd176db
 .git/objects/1d/fdfe4fd35555bd1172c8613a736cb800b37fe7
 .git/objects/1e/6f500d9b7ee5aab5598b5d9761672372ab8d15
+.git/objects/29/11ec97cfd26f06346dbc44aef96399d1635e88
 .git/objects/2a/373411212d400f7b392514fea86e8ef412356f
+.git/objects/2c/ec5c7c01f1e464b68369aed1fa2fda3cde5172
 .git/objects/2d/2eebcc5f23687317d361e4e947799d01f271e1
 .git/objects/2e/5955c7469b7dadf476c08ffdbc16f73a213e05
 .git/objects/34/0a8ff6e5d7a0803dab9c81fe4dde60bb7d6ed9
 .git/objects/34/1e0e01509b5b2691f5e714f1a594cf89671696
 .git/objects/35/dc16f1d420bce2ed881cdd7a117f623a7013bc
+.git/objects/37/6ee94ddef7baf93d0e7afedbfa4000362ddf58
 .git/objects/38/321c14c6670b2201dacd1aecdbd249fd77587c
+.git/objects/38/538a04bca3222b294c32f032e5c7718eeaa495
+.git/objects/3a/8bfcb05ea268a9433177ede77b15db683668b0
+.git/objects/3d/2c475ed419e286d054c2887a2a6f1a0ec7a91c
 .git/objects/3d/4d74a48832afb7ce8708248b958825b1492925
 .git/objects/3f/aca8027954c0c35fd7f912b3891e624b69bb14
 .git/objects/3f/afe2dd1426aad7f5e02bc8a9917ac9084405f5
@@ -48,12 +55,17 @@
 .git/objects/44/e52b8ecd9bb19cb96c66c0524ec2e4150105b4
 .git/objects/45/5a04efa394b5e33523b0c788db990903884b1c
 .git/objects/45/79adea871234e9b2b7c40c969e37eb94898e46
+.git/objects/45/fb4d7fa26a8f19c23b44b4293dfe03a75d98e3
 .git/objects/49/640b52b058a84606e4cc2f0e04fab5d0bf8375
 .git/objects/4a/9ead1e5332eeec7e2e75bd4cf3df3f6a2d9aa5
 .git/objects/4b/d0f5cb418bf0bb10cd1952ef86cd726d311931
+.git/objects/4e/7852174608d418e2577d658b0b476681c4f93e
 .git/objects/53/cfff63a969dfe20da4f12ef58579dda1fab6ba
+.git/objects/54/fa8f65daec64176b435f6b7b1be7b87bf51020
 .git/objects/56/ae8c38f9efcd4b194de1cb7cf83b03cc71db72
 .git/objects/57/c68b5d89b9d0e742b00aba76231930430f96e4
+.git/objects/59/366b6b6a796796f42cf6d34f61ed33f764cfb5
+.git/objects/59/9f0d445df7bc2eca9e12451ffd8ae4da0d98e9
 .git/objects/5a/26706f52b6b72b248ff01efed94432a3b052b5
 .git/objects/5a/bcbe34c26798cb0dd1ed3a7ade90872dc5067b
 .git/objects/5b/c0d6053b606edd8a7df7a094a00ffc795015de
@@ -66,13 +78,17 @@
 .git/objects/6c/009b8d71ea38b6aff38361601896481a3f90fa
 .git/objects/6d/31a7c36d7df3213ba017b2cfd7af3d510bf460
 .git/objects/6e/37a924b0ff6a994781e6bb25ce5d5e9d3f4aa2
+.git/objects/6f/4f7fc34f46a0bf349253677b5f87e18c860d08
 .git/objects/71/439e7f0148827e84b53ba1ff1b82d52a9bb623
+.git/objects/73/254c51c024b3ceb1924716580e05dc8c31abf5
 .git/objects/75/edf75d2c4ba5fa15f4b4ee7899c184ba7355ca
 .git/objects/78/cdc7f27dc0818cc6a152c74852b9147b92759e
 .git/objects/78/efc0e6bb2efb93f3069377d60d132268441bd9
 .git/objects/79/f6ff2126f4a038dfd986061289e42ece61a809
 .git/objects/7a/d0589ee9b905d29b3b91cf3f5dd06daaf6270e
 .git/objects/7a/d788b966b37b6241535c4a63ef37ef7a812216
+.git/objects/7b/066672e6226c881023120cc653839b18b2881d
+.git/objects/7b/1590c19b0e641cbf2423214514135ff16845b7
 .git/objects/7c/6db56b2d54e6f0087a4a2da7795f172d9af119
 .git/objects/7c/ef1a3a8455503e57cd84d7e3d1dbaa9816ca72
 .git/objects/7d/c0f0610c301693a3b25974905535923c27480e
@@ -83,11 +99,14 @@
 .git/objects/86/d7ec8af0e1e009288f18da6967509e128e21c4
 .git/objects/86/e23e00370117a5347fe476e12a28215eecf274
 .git/objects/89/220fdf1b4c6ecf1945343e28907ec59d83975e
+.git/objects/89/5388151872c2e32599283a7d94ae12e921db21
 .git/objects/8b/8a23745663d8afbd563261a8d5650ba62a51cf
 .git/objects/8b/e0bb075f30a9a56635ab8532741a3fba7eeb88
+.git/objects/8c/a309499bbd54b42da9dbc19cfcbe53a619efd7
 .git/objects/8c/de93fa7a8e79136af9a6396e24bec04378ffca
 .git/objects/8e/d6654707706d57887fc03729f7d3f0386b3ded
 .git/objects/8f/6e544445e53b23647e38e67893f5b0d89a0ed2
+.git/objects/94/48b21dcdd70e2f18d41a0a8feceaf87db7173b
 .git/objects/9a/ec23082bcb540a1430dfa972f01a4d0850ccbe
 .git/objects/9c/4f99b22a56fb8c71bac4b077baf261ac8a175e
 .git/objects/9e/909f6fdcb4d98998a59fecaa54b8073401f805
@@ -99,10 +118,12 @@
 .git/objects/a5/f01bfc546b53d8523fd4b349d9a79d18959d1a
 .git/objects/a7/0705dbf951f09e31894e4f13f6576d89877420
 .git/objects/a9/c083e64a1de64b05fce79ec94bd5e144d14629
+.git/objects/ae/fd501198fe3dec701589b6fba55cc6f67b2cb2
 .git/objects/b0/d07b72d537a3ea10db56284c8173226269e873
 .git/objects/b6/5084f53d48dacafe62b2667bf1e44a2963339f
 .git/objects/b7/318750392b8ef2ac1af58583852d318a23f014
 .git/objects/b8/93470b47b153f180c0f3173b62f0cbada24ad9
+.git/objects/b9/24ad9726447eadaa0c5fd3fcfc3cfb8bf0016f
 .git/objects/b9/fc1f23a6442bf304baccb0696686bda957246b
 .git/objects/ba/42072233736b18c17a02b663961ee5dc0058be
 .git/objects/bb/f46051c133e7c89fef8a869ab5abf736c57142
@@ -110,11 +131,13 @@
 .git/objects/c0/c3c6e04f4c5a73f556bcfbfcc8cf1d52c79181
 .git/objects/c4/ce9b81e6c7f682c585f64413ae6383bae5f49f
 .git/objects/ca/eedc6b4345b56d43a124ac76e3bef34498c2bc
+.git/objects/d1/364dfc0076bed0d8096aff0703f82adf3976b8
 .git/objects/d5/cdbd5f079e009e57a4fc429af82b19157c2be3
 .git/objects/d7/3cfa259721cb4895fd7315fedf7550072abb59
 .git/objects/d7/d167162c9c96d42c4cfb5374c72b26bef1ea72
 .git/objects/d7/eac2cdd5395aa563d0d5e0633e4205a7370037
 .git/objects/de/a4e2a1444b3d841a96b2dd6135747c705432f5
+.git/objects/df/38326ff52a8196d976cae650ad4363dd816d68
 .git/objects/e1/5dc500632a6bb7fee4c3c2a9b812de42a7d7b2
 .git/objects/e3/f5c12dfdfbd364659357035624545f1a99a4ff
 .git/objects/e4/40e5c842586965a7fb77deda2eca68612b1f53
@@ -124,29 +147,21 @@
 .git/objects/e9/521c75aa97c2efea4dd9ef43cbb37145f1ff86
 .git/objects/ea/69b71d7f7e0f88d25054baf2361eb818267cb1
 .git/objects/ec/a8f604ee1db1a45d8e015f4c51c5382f8e5533
+.git/objects/ef/1a59bbffdc22b6f7bae5025c32d7fabc787720
 .git/objects/ef/9bb2d612cf952b4fe4683ea32a5a30c28ee491
 .git/objects/f2/c789e59c33c775f1c6669af3838e642c43b103
 .git/objects/f2/d47c08e1fe1d5652bb92a9d52be5e9e1dd0ebc
+.git/objects/f4/dc1ac3aaf573dcd148573ce2a4f3e17e87bc62
 .git/objects/f6/03e83496393827a0dc2c0030ee93c5cdd20021
 .git/objects/f8/58985b6cf5a9e41a501d467faf60f48f79be17
 .git/objects/fe/776a7a916761acece507e62108e61e6d91a831
 .git/objects/ff/d172b0ed771531534e828af14efcd5709eee39
+.git/ORIG_HEAD
 .git/packed-refs
 .git/refs/heads/master
 .git/refs/remotes/origin/HEAD
 .git/refs/remotes/origin/master
 app.coffee
-framer/backups/backup-2016-08-12 13.32.37.coffee
-framer/backups/backup-2016-08-12 13.33.37.coffee
-framer/backups/backup-2016-08-12 13.37.37.coffee
-framer/backups/backup-2016-08-12 13.38.37.coffee
-framer/backups/backup-2016-08-12 13.39.44.coffee
-framer/backups/backup-2016-08-12 13.41.38.coffee
-framer/backups/backup-2016-08-12 13.42.37.coffee
-framer/backups/backup-2016-08-12 13.43.37.coffee
-framer/backups/backup-2016-08-12 13.45.37.coffee
-framer/backups/backup-2016-08-12 13.50.44.coffee
-framer/backups/backup-2016-08-12 13.53.44.coffee
 framer/backups/backup-2016-08-12 13.55.44.coffee
 framer/backups/backup-2016-08-16 23.34.52.coffee
 framer/backups/backup-2016-08-16 23.36.52.coffee
@@ -157,6 +172,17 @@ framer/backups/backup-2016-08-17 20.49.57.coffee
 framer/backups/backup-2016-08-17 20.50.57.coffee
 framer/backups/backup-2016-08-17 20.51.57.coffee
 framer/backups/backup-2016-08-17 20.55.57.coffee
+framer/backups/backup-2016-08-17 20.56.57.coffee
+framer/backups/backup-2016-08-17 21.18.56.coffee
+framer/backups/backup-2016-08-17 21.19.56.coffee
+framer/backups/backup-2016-08-17 21.31.56.coffee
+framer/backups/backup-2016-08-17 21.44.56.coffee
+framer/backups/backup-2016-08-17 21.45.56.coffee
+framer/backups/backup-2016-08-17 21.47.56.coffee
+framer/backups/backup-2016-08-17 21.48.56.coffee
+framer/backups/backup-2016-08-17 21.49.56.coffee
+framer/backups/backup-2016-08-17 21.50.56.coffee
+framer/backups/backup-2016-08-17 21.51.56.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -196,12 +222,14 @@ images/intro/framer-ci.png
 images/intro/theme/image/bg.jpg
 index.html
 LICENSE
+modules/CustomThemeIntro.coffee
 modules/Intro.coffee
 modules/IntroTheme.coffee
 modules/IntroThemeImage.coffee
 modules/IntroThemeTiny.coffee
 modules/IntroThemeWhite.coffee
 README.md
+screenshot-custom.jpg
 screenshot-image.jpg
 screenshot-tiny.jpg
 screenshot-white.jpg

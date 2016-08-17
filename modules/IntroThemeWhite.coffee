@@ -43,7 +43,7 @@ class IntroThemeWhite extends IntroTheme
 			copyright: brightness: 100, saturate: 100, hueRotate: 0, contrast: 100, invert: 0, grayscale: 0, sepia: 0
 			# Framer logo
 			logo: brightness: 100, saturate: 100, hueRotate: 0, contrast: 100, invert: 0, grayscale: 0, sepia: 0
-			# Background color
+			# Background :: color
 			background: { backgroundColor: 'white' }
 	
 exports.IntroThemeWhite = IntroThemeWhite

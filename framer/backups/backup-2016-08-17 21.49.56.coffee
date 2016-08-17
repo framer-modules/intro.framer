@@ -3,14 +3,13 @@
 # http://framerjs.com/docs/#info.info
 
 Framer.Info =
-	title: "Module for preview (v0.2)"
-	author: "threeword"
+	title: "Module for preview"
+	author: "Jungho Song"
 	twitter: "@threeword"
-	description: "For presentation\n - Fullscreen Supported,\n - Responsive Design,\n - More custom themes (default - Tiny, White, Image)"
-# 	image.facebook: "screenshot.jpg"
-# 	image.twitter: "screenshot.jpg"
+	description: "For preview & presentation\n - Fullscreen Supported,\n - Responsive Design,\n - More custom themes (White, Image, Tiny)"
+	date: "2016-07-07"
 
-Framer.Extras.ShareInfo.enable()
+Framer.Extras.ShareInfo.disable()
 
 # Initialization
 init = -> 
@@ -21,15 +20,18 @@ init = ->
 
 # Only Desktop
 if Utils.isDesktop()
+	# Custom themes
+	{CustomThemeIntro} = require "CustomThemeIntro"
+	customTheme = new CustomThemeIntro
 	# Presentation
 	{Intro} = require "Intro"
 	intro = new Intro
 		title: 'Module for preview'
 		, subTitle: 'PRESENTATION'
-		, typeNo: ''
-		, typeName: 'Theme - Tiny'
-		, details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
-		, theme: Intro.Theme.Tiny
+		, typeNo: '1'
+		, typeName: 'Customize Theme'
+		, details: ['Change the Font', 'Change title opacity', 'Change Background image(Using Utils.randomImage())']
+		, theme: customTheme
 	# Initialization
 	init()
 else init()
