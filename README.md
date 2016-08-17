@@ -8,13 +8,6 @@ A Framer Studio module for adding introduction to your project.
 - Responsive Design
 - More custom themes (White, Tiny, Image)
 
-# Theme 
-- [ ] White
-- [ ] Image
-- [x] **Tiny (Base on White) <- _default_**
-
-> You can add custom themes. [Customize Theme]
-
 # Installation
 Copy the "module" and "intro" folder (in "image" folder) and paste it into your prototype folder
 > More info about modules for Framer Studio: [FramerJS Docs - Modules](http://framerjs.com/docs/#modules.modules)
@@ -28,20 +21,14 @@ Copy the "module" and "intro" folder (in "image" folder) and paste it into your 
 * details : Descriptions of type [Array]
 * theme : Theme
 
-### Basic Theme
-#### Image
-```coffeescript
-{Intro} = require "Intro"
-intro = new Intro
-	title: 'Module for preview'
-	subTitle: 'PRESENTATION'
-	typeNo: ''
-	typeName: 'Theme - Image'
-	details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
-	theme: Intro.Theme.Image
-```
-![ScreenShot](screenshot-image.jpg)
+# Theme 
+- [ ] White
+- [ ] Image
+- [x] **Tiny (Base on White) <- _default_**
 
+> You can add custom themes. See below for details
+
+### Basic Theme
 #### White
 ```coffeescript
 {Intro} = require "Intro"
@@ -54,6 +41,19 @@ intro = new Intro
 	theme: Intro.Theme.White
 ```
 ![ScreenShot](screenshot-white.jpg)
+
+#### Image
+```coffeescript
+{Intro} = require "Intro"
+intro = new Intro
+	title: 'Module for preview'
+	subTitle: 'PRESENTATION'
+	typeNo: ''
+	typeName: 'Theme - Image'
+	details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
+	theme: Intro.Theme.Image
+```
+![ScreenShot](screenshot-image.jpg)
 
 #### Tiny [Default]
 ```coffeescript
@@ -146,8 +146,6 @@ intro = new Intro
 	theme: customTheme
 ```
 ![ScreenShot](screenshot-custom.jpg)
-
-___
 
 # License
 Intro.framer is released under the MIT license. See LICENSE for details.
