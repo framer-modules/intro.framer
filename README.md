@@ -20,8 +20,16 @@ Copy the "module" and "intro" folder (in "image" folder) and paste it into your 
 > More info about modules for Framer Studio: [FramerJS Docs - Modules](http://framerjs.com/docs/#modules.modules)
 
 # Usage
-## Basic Theme
-### Image
+### Properties
+* title : Project title
+* subTitle : Project subtitle (Task)
+* typeNo : Type number
+* typeName : Type name
+* details : Descriptions of type [Array]
+* theme : Theme
+
+### Basic Theme
+#### Image
 ```coffeescript
 {Intro} = require "Intro"
 intro = new Intro
@@ -34,7 +42,7 @@ intro = new Intro
 ```
 ![ScreenShot](screenshot-image.jpg)
 
-### White
+#### White
 ```coffeescript
 {Intro} = require "Intro"
 intro = new Intro
@@ -47,7 +55,7 @@ intro = new Intro
 ```
 ![ScreenShot](screenshot-white.jpg)
 
-### Tiny [Default]
+#### Tiny [Default]
 ```coffeescript
 {Intro} = require "Intro"
 intro = new Intro
@@ -59,7 +67,7 @@ intro = new Intro
 ```
 ![ScreenShot](screenshot-tiny.jpg)
 
-## Customize Theme
+### Customize Theme
 #### Properties
 * name : Theme name
 * deviceXPos : X position of device from the center position
