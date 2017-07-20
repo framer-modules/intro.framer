@@ -14,6 +14,7 @@ class IntroTheme extends Framer.BaseClass
 			DESCRIPTION_X_POS: -500, DESCRIPTION_Y_POS: -150,
 			LOGO_MARGIN: 10
 
+	# Constructor
 	constructor: (options = {}) ->
 		@deviceXPos = options.deviceXPos
 		@descriptionXPos = options.descriptionXPos

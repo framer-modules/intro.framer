@@ -16,7 +16,7 @@ class IntroThemeImage extends IntroTheme
 	# Constructor
 	constructor: ->
 		super 
-			# Project name
+			# Theme name
 			name: 'image'
 			# Project title
 			title: 
@@ -43,7 +43,7 @@ class IntroThemeImage extends IntroTheme
 			copyright: brightness: 200, saturate: 0, color: "rgba(255,255,255,0.6)"
 			# Framer logo
 			logo: brightness: 200, saturate: 0
-			# Backgound Image
+			# Backgound :: image
 			background: image: "images/intro/theme/image/bg.jpg", blur: 20, opacity: 0.7
 
 		# 

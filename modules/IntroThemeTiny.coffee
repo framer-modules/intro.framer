@@ -14,20 +14,20 @@ class IntroThemeTiny extends IntroTheme
 	# 생성자
 	constructor: ->
 		super 
-			# 이름
+			# Theme Name
 			name: 'tiny'
-			# 장치의 중심으로 부터 x위치
+			# X position of device from the center position
 			deviceXPos: 400
-			# 설명의 중심으로 부터 위치 
+			# X,Y position of description from the center position
 			descriptionXPos: -550, descriptionYPos: -80
-			# 프로젝트 제목
+			# Project title
 			title: 
 				style:
 					color: "#333"
 					, font: "100 100px/100px Noto Sans KR"
 					, textAlign: "center"
 					, opacity: "0.7"
-			# 프로젝트 세부 제목
+			# Project subtitle
 			subTitle: 
 				y: Align.top(140)
 				style:
@@ -35,7 +35,7 @@ class IntroThemeTiny extends IntroTheme
 					, font: "500 70px/80px Noto Sans KR"
 					, textAlign: "center"
 					, opacity: "0.6" 
-			# 상세 정보
+			# Project detail
 			details: 
 				y: Align.top(300)
 				style: 
@@ -43,11 +43,11 @@ class IntroThemeTiny extends IntroTheme
 					, font: "200 35px/80px Noto Sans KR"
 					, textAlign: "center"
 					, opacity: "0.8"
-			# 메이커 CI
+			# Copyright
 			copyright: brightness: 100, saturate: 100, hueRotate: 0, contrast: 100, invert: 0, grayscale: 0, sepia: 0
-			# 프레이머 로고
+			# Framer logo
 			logo: brightness: 100, saturate: 100, hueRotate: 0, contrast: 100, invert: 0, grayscale: 0, sepia: 0
-			# 배경
+			# Background :: color
 			background: { backgroundColor: 'white' }
 	
 exports.IntroThemeTiny = IntroThemeTiny

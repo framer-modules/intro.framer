@@ -9,7 +9,7 @@ Framer.Info =
 	description: "For preview & presentation\n - Fullscreen Supported,\n - Responsive Design,\n - More custom themes (White, Image, Tiny)"
 	date: "2016-07-07"
 
-Framer.Extras.ShareInfo.disable()
+Framer.Extras.ShareInfo.enable()
 
 # Initialization
 init = -> 
@@ -31,7 +31,7 @@ if Utils.isDesktop()
 		, typeNo: '1'
 		, typeName: 'Customize Theme'
 		, details: ['Change the font', 'Change the title opacity', 'Change the background image and effect', '(Using Utils.randomImage())']
-		, theme: customTheme
+# 		, theme: customTheme
 	# Initialization
 	init()
 else init()

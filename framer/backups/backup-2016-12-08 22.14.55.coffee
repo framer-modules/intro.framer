@@ -9,7 +9,7 @@ Framer.Info =
 	description: "For preview & presentation\n - Fullscreen Supported,\n - Responsive Design,\n - More custom themes (White, Image, Tiny)"
 	date: "2016-07-07"
 
-Framer.Extras.ShareInfo.disable()
+Framer.Extras.ShareInfo.enable()
 
 # Initialization
 init = -> 
@@ -20,15 +20,18 @@ init = ->
 
 # Only Desktop
 if Utils.isDesktop()
+	# Custom themes
+	{CustomThemeIntro} = require "CustomThemeIntro"
+	customTheme = new CustomThemeIntro
 	# Presentation
 	{Intro} = require "Intro"
 	intro = new Intro
 		title: 'Module for preview'
 		, subTitle: 'PRESENTATION'
-		, typeNo: ''
-		, typeName: 'Theme - Image'
-		, details: ['Fullscreen Supported ','Responsive Design', 'More custom themes']
-		, theme: Intro.Theme.Image
+		, typeNo: '1'
+		, typeName: 'Customize Theme'
+		, details: ['Change the font', 'Change the title opacity', 'Change the background image and effect', '(Using Utils.randomImage())']
+# 		, theme: customTheme
 	# Initialization
 	init()
 else init()
